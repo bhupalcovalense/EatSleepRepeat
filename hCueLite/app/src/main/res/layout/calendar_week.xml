@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/number_text_feild"
+            android:gravity="center"
+            android:maxEms="5"
+            android:text=""
+            android:textSize="@dimen/text_size_10" />
+
+        <TextView
+            android:id="@+id/tv_day1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/number_text_feild"
+            android:gravity="center"
+            android:maxEms="5"
+            android:text="MON"
+            android:textSize="@dimen/text_size_10" />
+
+        <TextView
+            android:id="@+id/tv_day2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/number_text_feild"
+            android:gravity="center"
+            android:maxEms="5"
+            android:text="TUE"
+            android:textSize="@dimen/text_size_10" />
+
+        <TextView
+            android:id="@+id/tv_day3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/number_text_feild"
+            android:gravity="center"
+            android:maxEms="5"
+            android:text="WED"
+            android:textSize="@dimen/text_size_10" />
+
+        <TextView
+            android:id="@+id/tv_day4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/number_text_feild"
+            android:gravity="center"
+            android:maxEms="5"
+            android:text="THURS"
+            android:textSize="@dimen/text_size_10" />
+
+        <TextView
+            android:id="@+id/tv_day5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/number_text_feild"
+            android:gravity="center"
+            android:maxEms="5"
+            android:text="FRI"
+            android:textSize="@dimen/text_size_10" />
+
+        <TextView
+            android:id="@+id/tv_day6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/number_text_feild"
+            android:gravity="center"
+            android:maxEms="5"
+            android:text="SAT"
+            android:textSize="@dimen/text_size_10" />
+
+        <TextView
+            android:id="@+id/tv_day7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/number_text_feild"
+            android:gravity="center"
+            android:maxEms="5"
+            android:text="SUN"
+            android:textSize="@dimen/text_size_10" />
+    </LinearLayout>
+
+    <!--<GridView
+        android:id="@+id/gv_week"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:numColumns="7"
+        android:stretchMode="columnWidth" />-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/table_times"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/day1_times"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/day2_times"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/day3_times"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/day4_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/day5_times"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/day6_times"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/day7_times"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            </TableLayout>
+        </TableRow>
+    </ScrollView>
+</LinearLayout>

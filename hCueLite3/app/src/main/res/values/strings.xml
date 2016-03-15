@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">hCueLite</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- SETTINGS -->
+    <string name="choose_landing">Choose your landing page option</string>
+    <string name="my_calendar">My Calendar</string>
+    <string name="my_appointment">My Appointment</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Enter your current Password</string>
+    <string name="new_password">Enter New Password</string>
+    <string name="reenter_password">Re-enter New Password</string>
+    <string name="change_password_caps">CHANGE PASSWORD</string>
+</resources>

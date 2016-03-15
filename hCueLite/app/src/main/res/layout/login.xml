@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/margin_40"
+    android:paddingRight="@dimen/margin_40"
+    android:paddingTop="@dimen/margin_40"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_7"
+        android:paddingTop="@dimen/margin_7"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_20"
+            android:layout_gravity="center"
+            android:text="Welcome Doctor :-)"
+            android:textColor="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_15"
+            android:background="@drawable/login_text_feild">
+
+            <EditText
+                android:id="@+id/etEmailID"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/margin_15"
+                android:paddingLeft="@dimen/margin_20"
+                android:background="@null"
+                android:paddingRight="@dimen/margin_20"
+                android:drawableRight="@drawable/email_icon_login"
+                android:hint="Email ID"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_15"
+            android:background="@drawable/login_text_feild">
+
+            <EditText
+                android:id="@+id/etPwd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/margin_15"
+                android:paddingLeft="@dimen/margin_20"
+                android:background="@null"
+                android:paddingRight="@dimen/margin_20"
+                android:drawableRight="@drawable/password_icon_login"
+                android:hint="Password"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_15"
+        android:gravity="center_horizontal"
+        android:text="Forgot Password?"
+        android:layout_marginTop="@dimen/margin_15"
+        android:textColor="#48B09E"/>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_15"
+        android:gravity="center"
+        android:text="Login"
+        android:layout_marginTop="@dimen/margin_15"
+        android:background="@drawable/submit_btn"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
